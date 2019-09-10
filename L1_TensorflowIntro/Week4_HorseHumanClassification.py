@@ -5,7 +5,7 @@ Real Case Application: Horse Human Classification
 # Download Images
 import subprocess
 
-subproces.check_output(['wget', '--no-check-certificate', 
+subprocess.check_output(['wget', '--no-check-certificate', 
 'https://storage.googleapis.com/laurencemoroney-blog.appspot.com/horse-or-human.zip', 
 '-O', './horse-or-human.zip'])
 
